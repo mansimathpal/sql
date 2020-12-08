@@ -1,0 +1,15 @@
+use mansi
+create table salesPerson(SalesPersonId int, SalesQuota int)
+insert into salesPerson values(268, 0.00)
+insert into salesPerson values(275, 300000.00)
+insert into salesPerson values(276, 250000.00)
+insert into salesPerson values(277, 250000.00)
+insert into salesPerson values(278, 250000.00)
+insert into salesPerson values(279, 30000.00)
+insert into salesPerson values(280, 250000.00)
+insert into salesPerson values(281, 250000.00)
+insert into salesPerson values(282, 250000.00)
+insert into salesPerson values(283, 250000.00)
+insert into salesPerson values(284, 0.00)
+insert into salesPerson values(285, 250000.00)
+select SalesPersonId, ISNULL(SalesQuota, 0.00) AS 'Sales Quota' from salesPerson

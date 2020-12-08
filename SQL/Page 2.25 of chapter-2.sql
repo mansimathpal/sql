@@ -1,0 +1,16 @@
+use mansi
+create table employ(EmployeeId int, Title varchar(40), SickLeaveHours int)
+insert into employ values(4, 'Senior Tool Designer', 80)
+insert into employ values(72, 'Stocker', 69)
+insert into employ values(109, 'Chief Executive Officer', 69)
+insert into employ values(141, 'Production Technician', 69)
+insert into employ values(179, 'Production Technician', 69)
+insert into employ values(224, 'Production Technician', 69)
+insert into employ values(262, 'Production Technician', 69)
+insert into employ values(245, 'Production Technician', 68)
+insert into employ values(252, 'Production Technician', 68)
+insert into employ values(195, 'Stocker', 68)
+insert into employ values(107, 'Production Technician', 68)
+insert into employ values(34, 'Stocker', 68)
+insert into employ values(69, 'Production Technician', 68)
+select top 10 with ties EmployeeId, Title, SickLeaveHours from employ order by SickLeaveHours desc

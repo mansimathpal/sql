@@ -1,0 +1,15 @@
+use mansi
+create table emplo(EmployeeId int, NationalIdNumber int, Title varchar(40), VacationHours int)
+insert into emplo values(3, 509647174, 'Engineering Manager', 2)
+insert into emplo values(12, 245797967, 'Vice President of Engineering', 6)
+insert into emplo values(60, 674171828, 'Production Technician', 3)
+insert into emplo values(95, 431859843, 'Production Technician', 7)
+insert into emplo values(131, 153288994, 'Production Technician', 5)
+insert into emplo values(140, 184188301, 'Chief Financial Officer', 8)
+insert into emplo values(163, 370581729, 'Engineering Manager', 4)
+insert into emplo values(165, 152085091, 'Production Technician', 9)
+insert into emplo values(221, 701156975, 'Production Technician', 1)
+insert into emplo values(232, 1133393530, 'Production Technician', 6)
+insert into emplo values(239, 872923042, 'Production Technician', 2)
+insert into emplo values(250, 56772045, 'Production Technician', 8)
+select EmployeeId, NationalIdNumber, Title, VacationHours from emplo where VacationHours < 5

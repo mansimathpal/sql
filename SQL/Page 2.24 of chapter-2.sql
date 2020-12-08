@@ -1,0 +1,15 @@
+use mansi
+create table depart(GroupName varchar(40), DepartmentID int, Name varchar(40))
+insert into depart values('Research and development', 1, 'Engineering')
+insert into depart values('Quality Assurance', 13, 'Quality Assurance')
+insert into depart values('Quality Assurance', 12, 'Document Control')
+insert into depart values('Manufacturing', 8, 'Production Control')
+insert into depart values('Manufacturing', 7, 'Propduction')
+insert into depart values('Inventory Management', 15, 'Shipping and Receiving')
+insert into depart values('Inventory Management', 5, 'Purchasing')
+insert into depart values('Executive General and Administration', 16, 'Executive')
+insert into depart values('Executive General and Administration', 14, 'Facilities and Maintenance')
+insert into depart values('Executive General and Administration', 11, 'Information Services')
+insert into depart values('Executive General and Administration', 10, 'Finance')
+insert into depart values('Executive General and Administration', 9, 'Human Resources')
+select GroupName, DepartmentId, Name from depart order by GroupName, DepartmentID

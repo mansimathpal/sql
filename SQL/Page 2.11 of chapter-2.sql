@@ -1,0 +1,15 @@
+use mansi
+create table department(DepartmentNumbeer int, DepartmentName varchar(40))
+insert into department values(12, 'Document Control')
+insert into department values(1, 'Engineering')
+insert into department values(16, 'Executive')
+insert into department values(14, 'Facilities and Maintenance')
+insert into department values(10, 'Finance')
+insert into department values(9, 'Human Resources')
+insert into department values(11, 'Information Services')
+insert into department values(4, 'Marketing')
+insert into department values(7, 'Production')
+insert into department values(8, 'Production Control')
+insert into department values(5, 'Purchasing')
+insert into department values(13, 'Quality Assurance')
+select * from department

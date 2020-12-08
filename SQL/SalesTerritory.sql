@@ -1,0 +1,15 @@
+use mansi
+create table SalesTerritory(Name varchar(30))
+insert into SalesTerritory values(NULL)
+insert into  SalesTerritory values('NorthEast')
+insert into  SalesTerritory values('SouthWest')
+insert into  SalesTerritory values('Central')
+insert into  SalesTerritory values('Canada')
+insert into  SalesTerritory values('SouthEast')
+insert into  SalesTerritory values('NorthWest')
+insert into  SalesTerritory values('SouthWest')
+insert into  SalesTerritory values('Canada')
+insert into  SalesTerritory values('NorthWest')
+insert into  SalesTerritory values(NULL)
+insert into  SalesTerritory values('United Kingdom')
+select * from SalesTerritory
